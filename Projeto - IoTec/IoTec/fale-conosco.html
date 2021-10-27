@@ -1,0 +1,85 @@
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/estilo.css">
+	<link rel="stylesheet" href="css/form.css">
+	<title>IoTec - Fale Conosco</title>
+
+	<link rel="sortcut icon" href="img/logo.png" type="image/x-icon" />
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="javascript/funcao.js"></script>
+</head>
+<body>
+	<div id="interface">
+		<header>
+			<div>
+				<a href="index.html"><img id="img-sup" src="img/logo-completo-topo.png"></a>
+			</div>
+			<nav class="menu">
+					<ul class="active">
+						<li id="img"></li>
+						<li class="item-menu"><a href="index.html">Home</a></li>
+						<li class="item-menu"><a href="loja.html">Loja</a></li>
+						<li class="item-menu"><a href="aulas.html">Cursos</a></li>
+						<li class="item-menu"><a href="fale-conosco.html">Fale conosco</a></li>
+						<li id="busca">
+						<div id="campo-busca">
+							<input type="search" id="txtBusca" list="historico" placeholder="Buscar..."/>
+						</div></li>
+					</ul>
+					<a class="icon-menu" href="#">&#9776;</a>
+				</div>
+			</nav>
+		</header>
+		<fieldset  id="usuario">
+        <legend>Identificação do Usuário</legend>
+        <p><label for="cNome">Nome completo:</label> <input type="text" name="tNome" id="cNome" size="20" maxlength="50" placeholder="Nome completo..."/> </p>
+        <p><label for="cEmail">E-mail Principal:</label> <input type="email" name="tEmail" id="cEmail" size="20" maxlength="50" placeholder="seuemail@gmail.com" /></p>
+        <fieldset id="sexo">
+            <legend>Sexo</legend>
+            <input type="radio" name="tSexo" id="cMasc"/> <label for="cMasc">Masculino</label>
+            <input type="radio" name="tSexo" id="cFem"/><label for="cFem">Feminino</label>
+        </fieldset>
+        <p><label for="cNasc">Data de Nascimento:</label><input type="date" name="tNasc" id="cNasc"></p>
+    </fieldset>
+
+    <fieldset id="endereco">
+        <legend>Endereço do Usuário</legend>
+        <p><label for="cRua">Logradouro:</label><input type="text" name="tRua" id="cRua" size="30" maxlength="100" placeholder="Rua, Av ou Travessa"> </p>
+        <p><label for="cNum">Número:<input type="number" name="tNum" id="cNum" size="5" minlength="0" maxlength="99999"> </label></p>
+        <p><label for="cEstado">Estado:<select name="tEstado" id="cEstado">
+            <option></option>
+            <option value="SP">São Paulo</option>
+            <option value="RJ">Rio de Janiero</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PR">Paraná</option>
+            <option value="SC">Santa Cataria</option>
+            <option value="RS">Rio Grande do Sul</option>
+        </select></label></p>
+        <p><label for="cCidade">Cidade:<select name="tCidade" id="cCidade">
+            <option></option>
+            <option>São Paulo</option>
+            <option>Osasco</option>
+        </select></label></p>
+    </fieldset>
+
+    <fieldset id="mensagem">
+        <legend>Mensagem do Usuário</legend>
+        <p><label for="cUrg">Grau de Satisfação:<br></label>0%<input type="range" name="tUrg" id="cUrg" minlength="0" maxlength="10" step="2"/>100%</p>
+        <p><label for="cMsg">Mensagem:</label><textarea name="tMsg" id="cMsg" cols="45" rows="5" placeholder="Escreva sua mensagem..."></textarea></p>
+    </fieldset>
+
+		<footer id="rodape">
+			<div id="rodape-inicio"></div>
+			<div id="rodape-meio">				
+			</div>
+			<div id="rodape-final">
+				<p>Copyright &copy; 2021 - by Equipe IoTec <br>
+				<a href="https://www.facebook.com/facebook" target="_blank">Facebook</a> | 
+				<a href="https://twitter.com/twitter" target="_blank">Twitter</a></p>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

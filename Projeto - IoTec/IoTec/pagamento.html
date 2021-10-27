@@ -1,0 +1,69 @@
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/estilo.css">
+	<link rel="stylesheet" href="css/pagamentos.css">
+	<title>IoTec - pagamentos</title>
+
+	<link rel="sortcut icon" href="img/logo.png" type="image/x-icon" />
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="javascript/funcao.js"></script>
+</head>
+<body>
+	<div id="interface">
+		<header>
+			<div>
+				<a href="index.html"><img id="img-sup" src="img/logo-completo-topo.png"></a>
+			</div>
+			<nav class="menu">
+					<ul class="active">
+						<li id="img"></li>
+						<li class="item-menu"><a href="index.html">Home</a></li>
+						<li class="item-menu"><a href="loja.html">Loja</a></li>
+						<li class="item-menu"><a href="aulas.html">Cursos</a></li>
+						<li class="item-menu"><a href="fale-conosco.html">Fale conosco</a></li>
+						<li id="busca">
+						<div id="campo-busca">
+							<input type="search" id="txtBusca" list="historico" placeholder="Buscar..."/>
+						</div></li>
+					</ul>
+					<a class="icon-menu" href="#">&#9776;</a>
+				</div>
+			</nav>
+		</header>
+		<section id="corpo">
+			<section id="pagamento">
+				<img id="img-apoio" src="img/logo-completo-topo.png"><br>
+				<h3 class="indentificacao-campos"> Dados para Cadastro</h3>
+				<input id="campo-nome" type="text" name="nome" placeholder="Nome completo...">
+				<input class="campo" type="text" name="cpf" placeholder="CPF - 000.000.000-00">
+				<input class="campo" type="text" name="telefone" placeholder="(DD) 00000-0000)">
+				<input class="campo-email" type="email" name="email" placeholder="seuemail@gmail.com">
+				<input class="campo-email" type="email" name="confirma-email" placeholder="Confirme seu e-mail">
+				<h3 class="indentificacao-campos"> Dados do cartão</h3>
+				<input class="campo" type="text" name="cartao" placeholder="Nº do cartão - 000 000 000 000">
+				<input class="campo" type="text" name="nome" placeholder="Nome do titular...">
+				<input class="campo" type="Data" name="nome" placeholder="Data de validade - mês/ano">
+				<input class="campo" type="text" name="nome" placeholder="Código de segurança - 000">
+
+				<footer id="finalizar-pagamento">
+					<button>finalizar</button>
+					<p><strong>OBS:</strong> Após a confirmção do pagamento, você receberá em seu e-mail uma mensagem para confirmção com seus dados de Login e Senha que serão gerados automaticamente pelo sistema.</p>
+				</footer>
+			</section>
+			
+		</section>
+		<footer id="rodape">
+			<div id="rodape-inicio"></div>
+			<div id="rodape-meio">				
+			</div>
+			<div id="rodape-final">
+				<p>Copyright &copy; 2021 - by Equipe IoTec <br>
+				<a href="https://www.facebook.com/facebook" target="_blank">Facebook</a> | 
+				<a href="https://twitter.com/twitter" target="_blank">Twitter</a></p>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

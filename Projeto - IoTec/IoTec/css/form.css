@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+fieldset {
+	margin: 3% 20% 2% 20%;
+}
+legend {
+	font-size: 110%;
+	font-style: oblique;
+	font-weight: bolder;
+}
+input {
+	padding: 0.75% 10% 0.75% 10%;
+}
+#sexo {
+	margin-left: 0px;
+}

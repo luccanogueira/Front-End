@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8"/>
+	<title>Informações Google Glass</title>
+
+	<style>
+		body {
+			font-family: Arial;
+			font-size: 10pt;
+		}
+		p {
+			text-align: justify;
+			text-indent: 10px;
+		}
+		article h1{
+			font-size: 15pt;
+			color: #ffffff;
+			background-color: rgba(0,0,0,.3);
+			padding: 5px;
+			margin: 0px;
+		}
+		article h2{
+			font-size: 13pt;
+			color: #888888;
+			margin: 0px;
+		}
+		article {
+			margin-bottom: 800px;
+		}
+		img.img-direita {
+			display: block;
+			float: right;
+			margin-left: 5px;
+		}
+	</style>
+</head>
+<body>
+
+<article id="topo">
+	<header>
+		<h2>Clique sobre algum dos componentes para saber mais sobre ele.</h2>
+	</header>
+	<img src="img/img-arduino-spec/mao.png" alt="Mão apontando para a esquerda">
+</article>
+
+<article id="microcontrolador">
+	</header>
+		<h1>Microcontrolador</h1>
+	</header>
+	<p>Esse é o cérebro do Arduino. Um computador inteiro dentro de um pequeno chip. Este é o dispositivo programável que roda o código que enviamos à placa.</p>
+
+	<p>Existem várias opções de marcas e modelos de microcontroladores, nessas placas foram adotados os microcontroladores da Microchip, que inicialmente eram produzidos pela Atmel,  mas especificamente a linha ATmega. O modelo UNO, por exemplo,  usa o microcontrolador ATmega328.</p>
+	<img src="img/img-arduino-spec/microcontrolador.jpg" alt="Microcontrolador do Arduino UNO">
+</article>
+
+<article id="conector-usb">
+	</header>
+		<h1>Conector USB</h1>
+	</header>
+	<p>Conecta a placa ao computador. É por onde o computador e o Arduino se comunicam com o auxílio de um cabo USB, além de ser uma opção de alimentação da placa.</p>
+	<img src="img/img-arduino-spec/conector-usb.jpg" style="height: 200px;" alt="Conector USB do Arduino UNO">
+</article>
+
+<article id="pinos-entrada-saida">
+	</header>
+		<h1>Pinos de Entrada e Saída</h1>
+	</header>
+	<p>Pinos que podem ser programados para agirem como entradas ou saídas fazendo com que o Arduino interaja com o meio externo. O UNO R3 possui 14 portas digitais (I/O), 6 pinos de entrada analógica e 6 saídas analógicas (PWM).</p>
+	<img src="img/img-arduino-spec/pinos-entra-saida.png" style="height: 200px;" alt="Pinos de Entrada e Saída superior do Arduino UNO">
+</article>
+
+<article id="pinos-alimentacao">
+	</header>
+		<h1>Pinos de Alimentação</h1>
+	</header>
+	<p>Fornecem diversos valores de tensão que podem ser utilizados para energizar os componentes do seu projeto. Devem ser usados com cuidado, para que não sejam forçados a fornecer valores de corrente superiores ao suportado pela placa.</p>
+	<img src="img/img-arduino-spec/pinos-alimentacao.png" style="height: 200px;" alt="Pinos de Alimentação do Arduino UNO">
+</article>
+
+<article id="reset">
+	</header>
+		<h1>Botão de Reset</h1>
+	</header>
+	<p>Botão que reinicia a placa para as configurações originais.</p>
+	<img src="img/img-arduino-spec/botao-reset.png" style="height: 200px;" alt="Botão de Reset do Arduino UNO">
+</article>
+
+<article id="conversor">
+	</header>
+		<h1>Conversor Serial-USB e LEDs TX/RX</h1>
+	</header>
+	<p>Para que o computador e o microcontrolador conversem, é necessário que exista um chip que traduza as informações vindas de um para o outro. Os LEDs TX e RX acendem quando o Arduino está transmitindo e recebendo dados pela porta serial respectivamente.</p>
+	<img src="img/img-arduino-spec/conversor.png" style="height: 200px;" alt="Conversor Serial-USB e LEDs TX/RX do Arduino UNO">
+</article>
+
+<article id="alimentacao">
+	</header>
+		<h1>Conector de Alimentação</h1>
+	</header>
+	<p>Responsável por receber a energia de alimentação externa, que pode ter uma tensão de no mínimo 7 Volts e no máximo 20 Volts e uma corrente mínima de 300mA. Recomendamos 9V, com um pino redondo de 2,1mm e centro positivo. Caso a placa também esteja sendo alimentada pelo cabo USB, ele dará preferência à fonte externa automaticamente.</p>
+	<img src="img/img-arduino-spec/alimentacao.png" style="height: 200px;" alt="Conector de Alimentação do Arduino UNO">
+</article>
+
+<article id="led-alimentacao">
+	</header>
+		<h1>LED de Alimentação</h1>
+	</header>
+	<p>Indica se a placa está energizada.</p>
+	<img src="img/img-arduino-spec/led-alimentacao.png" style="height: 200px;" alt="LED de Alimentação do Arduino UNO">
+</article>
+
+<article id="led-interno">
+	</header>
+		<h1>LED Interno</h1>
+	</header>
+	<p>LED conectado ao pino digital 13.</p>
+	<img src="img/img-arduino-spec/led-interno.png" style="height: 200px;" alt="LED Interno do Arduino UNO">
+</article>
+
+
+
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/estilo.css">
+	<link rel="stylesheet" href="css/cursos.css">
+	<title>IoTec - Cursos</title>
+
+	<link rel="sortcut icon" href="img/logo.png" type="image/x-icon" />
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="javascript/funcao.js"></script>
+</head>
+<body>
+	<div id="interface">
+		<header>
+			<div>
+				<a href="index.html"><img id="img-sup" src="img/logo-completo-topo.png"></a>
+			</div>
+			<nav class="menu">
+					<ul class="active">
+						<li id="img"></li>
+						<li class="item-menu"><a href="index.html">Home</a></li>
+						<li class="item-menu"><a href="loja.html">Loja</a></li>
+						<li class="item-menu"><a href="aulas.html">Cursos</a></li>
+						<li class="item-menu"><a href="fale-conosco.html">Fale conosco</a></li>
+						<li id="busca">
+						<div id="campo-busca">
+							<input type="search" id="txtBusca" list="historico" placeholder="Buscar..."/>
+						</div></li>
+					</ul>
+					<a class="icon-menu" href="#">&#9776;</a>
+				</div>
+			</nav>
+		</header>
+
+		<section id="curiosidades">
+			<h2 class="titulo">Veja algumas curiosidades sobre o Arduino UNO</h2>
+			<img id="spec-arduino" src="img/img-arduino-spec/arduino.png" usemap="#mapa">
+			<map name="mapa">
+				<area shape="rect" coords="218,232,447,268" href="arduino-spec.html#microcontrolador" target="janela">
+				<area shape="rect" coords="7,79,104,151" href="arduino-spec.html#conector-usb" target="janela">
+				<area shape="rect" coords="155,28,446,45" href="arduino-spec.html#pinos-entrada-saida" target="janela">
+				<area shape="rect" coords="350,327,447,342" href="arduino-spec.html#pinos-entrada-saida" target="janela">
+				<area shape="rect" coords="211,327,339,344" href="arduino-spec.html#pinos-alimentacao" target="janela">
+				<area shape="rect" coords="59,24,107,64" href="arduino-spec.html#reset" target="janela">
+				<area shape="rect" coords="155,121,187,153" href="arduino-spec.html#conversor" target="janela">
+				<area shape="rect" coords="34,274,117,330" href="arduino-spec.html#alimentacao" target="janela">
+				<area shape="rect" coords="402,119,423,132" href="arduino-spec.html#led-alimentacao" target="janela">
+				<area shape="rect" coords="207,91,227,100" href="arduino-spec.html#led-interno" target="janela">
+			</map>
+			<iframe src="arduino-spec.html" name="janela" id="arduino-spec" scrolling="no"></iframe>
+		</section>
+		<section id="cursos">
+			<h2 class="titulo">Nossos Cursos</h2>
+
+			<article id="cursos">
+					<section class="curso">
+						<img class="img-curso" src="img/img-cursos/raspberry-pi.png">
+						<h3>Curso introdutorio em Raspberry Pi</h3>
+						<h4 class="descricao-curso">Conheça o minicomputador, semelhante ao PC que você tem em casa.</h4>
+						<h5>GRATUITO</h5>
+					</section>
+					<section class="curso">
+						<img class="img-curso" src="img/img-cursos/linguagem-c.png">
+						<h3>Curso introdutorio Programação em C</h3>
+						<h4 class="descricao-curso">Entenda e conheça os conceitos basicos da liguagem C para criar seu primeiros projetos</h4>
+						<h5>GRATUITO</h5>
+					</section>
+					<section class="curso">
+						<img class="img-curso" src="img/img-cursos/linguagem-javascript.png">
+						<h3>Curso introdutorio Programação em JS</h3>
+						<h4 class="descricao-curso">Entenda e conheça os conceitos basicos da Java Script para criar seu primeiros projetos</h4>
+						<h5> GRATUITO</h5>
+					</section>
+			</article>
+		</section>
+
+		<footer id="rodape">
+			<div id="rodape-inicio"></div>
+			<div id="rodape-meio">				
+			</div>
+			<div id="rodape-final">
+				<p>Copyright &copy; 2021 - by Equipe IoTec <br>
+				<a href="https://www.facebook.com/facebook" target="_blank">Facebook</a> | 
+				<a href="https://twitter.com/twitter" target="_blank">Twitter</a></p>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
