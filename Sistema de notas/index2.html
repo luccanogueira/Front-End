@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<title>Exemplo2</title>
+</head>
+<body>
+
+	<div class="container">
+
+		<h1>Adicionar Novo Aluno</h1>
+
+		<form id="formulario">
+			
+			<div>
+				<label for="nome" class="form_titulo">Nome</label>
+				<input type="text" id="nome" placeholder="Digite o nome do aluno" class="campo campo_grande">
+			</div>
+			<br>
+			<div>
+				<label for="prim" class="form_titulo">1º Bimestre</label>
+				<input type="text" id="prim" placeholder="1º Bim" class="campo campo_medio">
+
+				<label for="seg" class="form_titulo">2º Bimestre</label>
+				<input type="text" id="seg" placeholder="2º Bim" class="campo campo_medio">
+
+				<label for="ter" class="form_titulo">3º Bimestre</label>
+				<input type="text" id="ter" placeholder="3º Bim" class="campo campo_medio">
+
+				<label for="qua" class="form_titulo">4º Bimestre</label>
+				<input type="text" id="qua" placeholder="4º Bim" class="campo campo_medio">
+			</div>
+			<br><br>
+			<button id="cadastrar-aluno" class="btn">Cadastrar Aluno</button>
+		</form>
+		<br><br>
+
+		<table id="tabela-alunos">
+			<thead>
+				<tr class="titulo">
+					<th>Nome</th>
+					<th>1º Bim</th>
+					<th>2º Bim</th>
+					<th>3º Bim</th>
+					<th>4º Bim</th>
+					<th>Média</th>
+					<th>Status</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class="aluno">
+					<td class="info-nome">Maria</td>
+					<td class="info-prim">3.5</td>
+					<td class="info-seg">8.5</td>
+					<td class="info-ter">7.0</td>
+					<td class="info-qua">6.5</td>
+					<td class="info-media"></td>
+					<td class="info-status"></td>
+				</tr>
+				<tr class="aluno">
+					<td class="info-nome">Carla</td>
+					<td class="info-prim">10.0</td>
+					<td class="info-seg">6.5</td>
+					<td class="info-ter">7.5</td>
+					<td class="info-qua">9.0</td>
+					<td class="info-media"></td>
+					<td class="info-status"></td>
+				</tr>
+				<tr class="aluno">
+					<td class="info-nome">Sandra</td>
+					<td class="info-prim">5.5</td>
+					<td class="info-seg">8.0</td>
+					<td class="info-ter">6.0</td>
+					<td class="info-qua">2.0</td>
+					<td class="info-media"></td>
+					<td class="info-status"></td>
+				</tr>
+				<tr class="aluno">
+					<td class="info-nome">Roberta</td>
+					<td class="info-prim">8.0</td>
+					<td class="info-seg">10.0</td>
+					<td class="info-ter">5.0</td>
+					<td class="info-qua">6.5</td>
+					<td class="info-media"></td>
+					<td class="info-status"></td>
+				</tr>
+				<tr class="aluno">
+					<td class="info-nome">Jonas</td>
+					<td class="info-prim">1.0</td>
+					<td class="info-seg">2.5</td>
+					<td class="info-ter">3.0</td>
+					<td class="info-qua">4.0</td>
+					<td class="info-media"></td>
+					<td class="info-status"></td>
+				</tr>
+			</tbody>
+		</table>
+
+	</div>
+<script src="js/index2.js"></script>
+</body>
+</html>

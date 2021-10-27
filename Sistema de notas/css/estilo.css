@@ -1,0 +1,56 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+}
+
+.container{
+	width: 80%;
+	margin: 30px auto;
+}
+
+table{
+	font-family: sans-serif;
+	line-height: 2;
+	text-align: center;
+	border: 1px solid black;
+	width: 100%;
+}
+
+table .titulo{
+	background-color: black;
+	color: white;
+}
+
+table tr, table td{
+	border: 1px solid black;
+}
+
+.campo{
+	line-height: 1.5;
+	font-size: 16px;
+}
+
+.campo_grande{
+	width: 95%;
+}
+
+.campo_medio{
+	width: 16%;
+}
+
+h1{
+	margin-bottom: 30px;
+}
+
+.form_titulo{
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: bolder; 
+}
+
+.btn{
+	font-family: sans-serif;
+	font-size: 15px;
+	line-height: 2;
+	padding: 0 30px;
+}
